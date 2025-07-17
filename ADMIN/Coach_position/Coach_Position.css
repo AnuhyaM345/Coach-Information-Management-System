@@ -1,0 +1,555 @@
+.back {
+    background-color: #00008B;
+    color: white; /* Change text color to white for better contrast */
+    padding: 0px 25px; /* Adjust padding as needed */
+    font-size: 17px; /* Reduce font size */
+  
+}
+.customized{
+    background-color: red;
+}
+
+
+/* Inspection Line */
+.inspection-heading {
+    color:#00008B ;
+    margin-left: 0%; /* Move the heading somewhat to the right */
+    font-size:15px;
+    
+}
+
+.inspection-line {
+    display: inline-block; /* Display the inspection line container as an inline-block element */
+    background-color: #ffffff; /* Ash color background */
+    padding: 5px 8px; /* Add padding for spacing */
+    color: black; /* Black text color */
+    border-radius: 5px; /* Add rounded corners */
+    margin-left: -0.8%;
+    width: 28%;
+    margin-top: -28px;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    font-size:12px;
+    height:145px;
+}
+
+.inspection-line .line-container {
+    display: inline-block; /* Make line containers inline-block to fit in one row */
+    background-color: #ffffff; /* Ash color background */
+    padding: 0px 12px; /* Match padding of inspection line */
+    color: black; /* Black text color */
+    border-radius: 5px; /* Add rounded corners */
+    margin-bottom: -1.5%; /* Add spacing between different line containers */
+    border: 1px solid #fffcfc; /* Optional: Add border for each line container */
+    width: 100%; /* Make it fit within the parent container */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+.inspection-line .line-container > div:first-child {
+    margin-bottom: 5px; /* Add spacing below the line name */
+}
+
+.inspection-line .row {
+    padding: 3px;
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.inspection-line .col {
+    padding: 0px; /* Reset padding for each column */
+    color: rgb(224, 224, 224);
+    text-align: center;
+}
+
+
+/* Lift and Lower Shop */
+.lift-lower-shop-heading {
+    color:#00008B;
+    margin-left: -1%; /* Move the heading somewhat to the right */
+    margin-top: 100px;
+    font-size:15px;
+}
+
+.lift-lower-shop-line {
+    display: block; /* Display the container as a block element */
+    background-color: #ffffff; /* Ash color background */
+    padding: 0px 12px; /* Add padding for spacing */
+    color: black; /* Black text color */
+    border-radius: 5px; /* Add rounded corners */
+    margin-left: 27.5%;
+    width: 45%;
+    margin-top: -10%; /* Negative value to move upwards */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    font-size:12px;
+}
+
+
+
+.lift-lower-shop-line .line-container {
+    display: inline-block; /* Display line containers as inline-block to fit in one row */
+    background-color: #ffffff; /* Ash color background */
+    padding: 5px 10px; /* Add padding for spacing */
+    color: black; /* Black text color */
+    border-radius: 5px; /* Add rounded corners */
+    margin-bottom: -1.5%;  /* Add spacing between different line containers */
+    border: 1px solid #fffdfd; /* Optional: Add border for each line container */
+    width: 100%; /* Make it fit within the parent container */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    
+}
+
+.lift-lower-shop-line .line-container > div:first-child {
+    margin-bottom: 0px; /* Add spacing below the line name */
+    height:40px;
+}
+
+.lift-lower-shop-line .row {
+    padding: 0px;
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.lift-lower-shop-line .col {
+    padding: 0px; /* Reset padding for each column */
+    color: rgb(224, 224, 224);
+    text-align: center;
+}
+
+
+
+
+
+/* Weigh Bridge Line Heading */
+.weigh-bridge-line-heading {
+    color: #00008B;
+    margin-left: 3%; /* Move the heading somewhat to the right */
+    font-size:12px;
+ 
+}
+
+/* Weigh Bridge Line Container */
+.weigh-bridge-line {
+    display: block; /* Display the container as a block element */
+    background-color: #ffffff; /* Ash color background */
+    padding: 0px 7px; /* Add padding for spacing */
+    color: black; /* Black text color */
+    border-radius: 5px; /* Add rounded corners */
+    margin-left: 73%; /* Adjust margin-left as needed */
+    width: 28%; /* Set the width of the container */
+    margin-top: -10%; /* Negative value to move upwards */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+   
+}
+
+.weigh-bridge-line .line-container {
+    display: inline-block; /* Display line containers as inline-block to fit in one row */
+    background-color: #ffffff; /* Ash color background */
+    padding: 5px 10px; /* Add padding for spacing */
+    color: black; /* Black text color */
+    border-radius: 3px; /* Add rounded corners */
+    margin-bottom: -1.5%; /* Add spacing between different line containers */
+    border: 1px solid #fffdfd; /* Optional: Add border for each line container */
+    width: 100%; /* Make it fit within the parent container */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+.weigh-bridge-line .line-container > div:first-child {
+    margin-bottom: 10px; /* Add spacing below the line name */
+}
+/* Weigh Bridge Line Row */
+.weigh-bridge-line .row {
+    margin-left: 0px; /* Reset the left margin of the row */
+}
+
+/* Weigh Bridge Line Column */
+.weigh-bridge-line .col {
+    padding: 0px; /* Add padding to each column */
+    color: rgb(224, 224, 224);
+    text-align: center;
+}
+
+
+
+
+/* Old Paint Shop */
+.old-paint-shop-heading {
+    color: #00008B ;
+    margin-top: -4%;
+    margin-left: 1%; /* Move the heading somewhat to the right */
+    font-size:15px;
+}
+
+.old-paint-shop-line {
+    display: block; /* Display the container as a block element */
+    background-color: #ffffff; /* Ash color background */
+    padding: 0px 7px; /* Add padding for spacing */
+    color: black; /* Black text color */
+    border-radius: 5px; /* Add rounded corners */
+    margin-left: -1%;
+    width: 42%;
+    margin-top: -5%; /* Negative value to move upwards */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    font-size:12px;
+}
+
+.old-paint-shop-line .line-container {
+    display: block; /* Display line containers as block elements */
+    background-color: #ffffff; /* White color background */
+    padding: 5px 10px; /* Add padding for spacing */
+    color: black; /* Black text color */
+    border-radius: 7px; /* Add rounded corners */
+    margin-left: 2%;
+    margin-bottom: -1.5%; /* Add spacing between different line containers */
+    border: 1px solid #ffffff; /* Optional: Add border for each line container */
+    width: 100%; /* Make it fit within the parent container */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+.old-paint-shop-line .line-container > div:first-child {
+    margin-bottom: 3px; /* Add spacing below the line name */
+}
+
+.old-paint-shop-line .row {
+    padding: 0px;
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.old-paint-shop-line .col {
+    padding: 0px; /* Reset padding for each column */
+    color: rgb(224, 224, 224);
+    text-align: center;
+}
+
+
+
+
+/* New Paint Shop */
+.new-paint-shop-heading {
+    color: #00008B;
+    margin-top: -4%;
+    margin-left: -4%; /* Adjust as necessary */
+    font-size:15px;
+}
+
+.new-paint-shop-line {
+    display: block; /* Display the container as a block element */
+    background-color: #ffffff; /* Ash color background */
+    padding: 5px 7px; /* Add padding for spacing */
+    color: black; /* Black text color */
+    border-radius: 5px; /* Add rounded corners */
+    margin-left: 0%;
+    width: 19%;
+    margin-top: -1%;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    font-size:12px;
+}
+
+.new-paint-shop-line .line-container {
+    display: block; /* Display line containers as block elements */
+    background-color: #ffffff; /* Slightly lighter background for contrast */
+    padding: 5px 10px; /* Add padding for spacing */
+    color: black; /* Black text color */
+    border-radius: 5px; /* Add rounded corners */
+    margin-left:-2%;
+    margin-bottom: -1.5%;  /* Add spacing between different line containers */
+    border: 1px solid #ffffff; /* Optional: Add border for each line container */
+    width: 100%; /* Make it fit within the parent container */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+.new-paint-shop-line .line-container > div:first-child {
+    margin-bottom: 0px; /* Add spacing below the line name */
+}
+
+.new-paint-shop-line .row {
+    padding: 0px;
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.new-paint-shop-line .col {
+    padding: 0px; /* Reset padding for each column */
+    color: rgb(224, 224, 224);
+    text-align: center;
+}
+
+
+
+/* Carriage Shop */
+.carriage-shop-heading {
+    color: #00008B ;
+    margin-top: -24%; /* Adjusted to a more appropriate value */
+    margin-left: 0%; /* Move the heading somewhat to the right */
+    font-size:15px;
+}
+
+.carriage-shop-line {
+    display: block; /* Display the container as a block element */
+    background-color: #ffffff;  /* Ash color background */
+    padding: 0px 7px; /* Add padding for spacing */
+    color: black; /* Black text color */
+    border-radius: 2px; /* Add rounded corners */
+    margin-left: 42%;
+    width: 32%;
+  
+    margin-top: -24%;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+
+
+}
+
+.carriage-shop-line .line-container {
+    display: block; /* Display line containers as block elements */
+    background-color: #ffffff; /* White color background */
+    padding: 5px 10px; /* Add padding for spacing */
+    color: black; /* Black text color */
+    border-radius: 5px; /* Add rounded corners */
+    margin-bottom: -1.5%;  /* Add spacing between different line containers */
+    border: 1px solid #ffffff; /* Optional: Add border for each line container */
+    width: 100%; /* Make it fit within the parent container */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+   
+}
+
+.carriage-shop-line .line-container > div:first-child {
+    margin-bottom: -6px; /* Add spacing below the line name */
+}
+
+.carriage-shop-line .row {
+    padding: 5px;
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.carriage-shop-line .col {
+    padding: 0px; /* Reset padding for each column */
+    color: rgb(224, 224, 224);
+    text-align: center;
+}
+
+
+
+/* Corrosion Shop */
+.corrosion-shop-heading {
+    color: #00008B;
+    font-size:15px;
+   
+    margin-top: -10%; /* Adjust as necessary */
+    margin-left: -1%; /* Move the heading somewhat to the right */
+}
+
+.corrosion-shop-line {
+   
+
+    display: block; /* Display the container as a block element */
+    background-color: #ffffff; /* Ash color background */
+    color: black; /* Black text color */
+    margin-left: 75%;
+    margin-top: -26%;
+    width: 25%;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    font-size:12px;
+   
+}
+
+.corrosion-shop-line .line-container {
+    display: block; /* Display line containers as block elements */
+    background-color: #ffffff;/* Slightly lighter background for contrast */
+    padding: 5px 10px; /* Add padding for spacing */
+    color: black; /* Black text color */
+    border-radius: 7px; /* Add rounded corners */
+    margin-bottom: -1.5%;  /* Add spacing between different line containers */
+    border: 1px solid #ffffff; /* Optional: Add border for each line container */
+    width: 100%; /* Make it fit within the parent container */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+.corrosion-shop-line .line-container > div:first-child {
+    margin-bottom: 0px; /* Add spacing below the line name */
+}
+
+.corrosion-shop-line .row {
+    padding: 0px;
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.corrosion-shop-line .col {
+    padding: 0px; /* Reset padding for each column */
+    color: rgb(224, 224, 224);
+    text-align: center;
+}
+
+
+/* Power Car Shed */
+.power-car-shed-heading {
+    color: #00008B;
+    font-size:15px;
+    margin-left: -2%; /* Adjust as necessary */
+}
+
+.power-car-shed-line {
+    display: block; /* Display the container as a block element */
+    background-color: #ffffff; /* Ash color background */
+    padding: 5px 7px; /* Add padding for spacing */
+    color: black; /* Black text color */
+    border-radius: 5px; /* Add rounded corners */
+    margin-left: 0%;
+    margin-top: -4%; /* Adjust as necessary */
+    width: 100%;
+    margin-bottom: 0px;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    font-size:12px;
+}
+
+.power-car-shed-line .line-container {
+    display: block; /* Display line containers as block elements */
+    background-color: #ffffff; /* Slightly lighter background for contrast */
+    padding: 5px 10px; /* Add padding for spacing */
+    color: black; /* Black text color */
+    border-radius: 5px; /* Add rounded corners */
+    margin-bottom: -1.5%;  /* Add spacing between different line containers */
+    border: 1px solid #ffffff; /* Optional: Add border for each line container */
+    width: 100%; /* Make it fit within the parent container */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+.power-car-shed-line .line-container > div:first-child {
+    margin-bottom: 0px; /* Add spacing below the line name */
+}
+
+.power-car-shed-line .row {
+    padding: 0px;
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.power-car-shed-line .col {
+    padding: 0px; /* Reset padding for each column */
+    color: rgb(224, 224, 224);
+    text-align: center;
+}
+
+
+/* DEMU Shed */
+.demu-shed-heading {
+    color:#00008B ;
+  
+    margin-left: 0%; /* Adjust as necessary */
+}
+
+.demu-shed-line {
+    display: block; /* Display the container as a block element */
+    background-color: #ffffff; /* Ash color background */
+    padding: 5px 7px; /* Add padding for spacing */
+    color: black; /* Black text color */
+    border-radius: 5px; /* Add rounded corners */
+    margin-left: 35%;
+   
+    width: 37%;
+    margin-top: -5%; /* Adjust as necessary */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+.demu-shed-line .line-container {
+    display: block; /* Display line containers as block elements */
+    background-color: #ffffff; /* Slightly lighter background for contrast */
+    padding: 5px 10px; /* Add padding for spacing */
+    color: black; /* Black text color */
+    border-radius: 5px; /* Add rounded corners */
+    margin-bottom: -1.5%;  /* Add spacing between different line containers */
+    border: 1px solid #fffefe; /* Optional: Add border for each line container */
+    width: 100%; /* Make it fit within the parent container */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+.demu-shed-line .line-container > div:first-child {
+    margin-bottom: 0px; /* Add spacing below the line name */
+}
+
+.demu-shed-line .row {
+    padding: 0px;
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.demu-shed-line .col {
+    padding: 0px; /* Reset padding for each column */
+    color: rgb(224, 224, 224);
+    text-align: center;
+}
+
+
+
+/* Wall Line */
+.wall-line-heading {
+    color: #00008b;
+    margin-bottom: 10px; /* Remove default bottom margin */
+    margin-top: -1%;
+    margin-left: -0.3%; /* Move the heading somewhat to the right */
+    font-size:15px;
+}
+
+.custom-box {
+    display: inline-block; /* Display the box as an inline-block element */
+    background-color: #ffffff; /* Ash color background */
+    padding: 0px 0px; /* Add padding for spacing */
+    color: black; /* Black text color */
+    border-radius: 5px; /* Add rounded corners */
+    margin-left: -0.5%;
+    margin-top: -1%;
+    width: 100%;
+    font-size: 12px;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    overflow: hidden; /* Hide any overflow content */
+    white-space: nowrap; /* Prevent line breaks */
+}
+
+.custom-box .row {
+    margin-left: 5px;
+}
+
+.custom-box .col {
+    padding: 0px; /* Add padding to each column */
+    color: rgb(224, 224, 224);
+    text-align: center;
+}
+
+
+.custom-box1 {
+    display: inline-block; /* Display the box as an inline-block element */
+    background-color: #ffffff;/* Ash color background */
+    padding: 0px 7px; /* Add padding for spacing */
+    color: black; /* Black text color */
+    border-radius: 5px; /* Add rounded corners */
+    margin-left: 5%;
+    margin-bottom: 4px;
+    margin-left: 42%;
+}
+
+.custom-box2 {
+    display: inline-block; /* Display the box as an inline-block element */
+    background-color: #ffffff; /* Ash color background */
+    padding: 0px 7px; /* Add padding for spacing */
+    color: black; /* Black text color */
+    border-radius: 5px; /* Add rounded corners */
+    margin-right: 5%; /* Adjust the left margin as needed */
+    font: bold;
+    
+}
+
+.Total-Holdings {
+   align-items: center;
+   margin-left: 20%;
+
+}
+
+.bg-primary {
+    background-color: rgb(143, 188, 255) !important; /* Make background transparent */
+    color: black !important; /* Set text color to black */
+    width: 1px !important; /* Set width to auto */
+    border-radius: 10px;
+    padding: 0px 0px 0px 10px;
+    font-size: 16px;
+}
+
+.bg-primary {
+    background-color: blue;
+}
+
+.bg-warning {
+    background-color: yellow;
+}
+
